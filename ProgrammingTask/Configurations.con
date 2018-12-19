@@ -1,0 +1,17 @@
+IMPORTANT NOTICE - PLEASE READ
+
+# Please note that the location of the file both send and received path must be with both read and write permissions
+# you can find out the permissions by right click on the directory path -> properties -> security
+# by default your user under C:\\Users\\YOUR-USER is with read and write permissions
+
+
+
+# Location of the file to send over Socket (please put double slashes "\\" to define tha path as showed in the example below):
+FILE_TO_SEND=C:\\Users\\YOUR-USER\\Documents\\file_name.txt
+
+# Location of the file to be retrived from Socket:
+RETRIVED_PATH=C:\\Users\\YOUR-USER\\
+
+#EndPoint URL:
+END_POINT_ADDRESS = localhost
+PORT=9000
